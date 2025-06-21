@@ -1,5 +1,4 @@
 
-
 function outcome() {
 
     let valorInicial = Number(document.getElementById('valor').value)
