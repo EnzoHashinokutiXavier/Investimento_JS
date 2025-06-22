@@ -21,8 +21,8 @@ function outcome() {
         // Calculo da diferença entre valor investido e valor retornado
         aumento = valorFinal - valorInicial
         // Envio dos resultados para o html
-        document.getElementById('resultado').innerHTML = 'R$' + valorFinal.toFixed(2)
-        document.getElementById('aumento').innerHTML = 'R$' + aumento.toFixed(2)
+        document.getElementById('resultado').innerHTML = 'Total : R$' + valorFinal.toFixed(2)
+        document.getElementById('aumento').innerHTML = 'Aumento : R$' + aumento.toFixed(2)
     }
     
     // Calculo com tempo medido em anos
